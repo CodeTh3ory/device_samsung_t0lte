@@ -21,15 +21,15 @@ PRODUCT_RELEASE_NAME := t0lte
 $(call inherit-product, device/samsung/t0lte/full_t0lte.mk)
 
 # phone
-$(call inherit-product, vendor/codex/config/common_phone.mk)
+$(call inherit-product, vendor/axi0m/config/common_phone.mk)
 
 # telephony
-$(call inherit-product, vendor/codex/config/common_gsm.mk)
+$(call inherit-product, vendor/axi0m/config/common_gsm.mk)
 
 # product
 PRODUCT_DEVICE := t0lte
 PRODUCT_BRAND := samsung
-PRODUCT_NAME := codex_t0lte
+PRODUCT_NAME := axi0m_t0lte
 PRODUCT_MODEL := GT-N7105
 PRODUCT_MANUFACTURER := Samsung
 

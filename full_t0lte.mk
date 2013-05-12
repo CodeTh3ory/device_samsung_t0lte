@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/t0lte/t0lte.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := codex_t0lte
+PRODUCT_NAME := axi0m_t0lte
 PRODUCT_DEVICE := t0lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
